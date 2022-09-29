@@ -1,3 +1,11 @@
+class  Node {
+    constructor(val){
+        this.data = val;
+        this.next = null;
+    }
+}
+
+
 function getElementAt(qIndex, listHead) {
     //   Node.data = qIndex;
     let temp = listHead;
@@ -15,3 +23,4 @@ function getElementAt(qIndex, listHead) {
       return val[qIndex - 1];
     }
   }
+
